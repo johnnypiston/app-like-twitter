@@ -62,11 +62,6 @@ const Feed = function (props) {
   return (
     <ListContainer>
       <FeedHeader />
-      {/* <Tabs>
-        <TabLink to={`${props.match.url}`}>Tweets</TabLink>
-        <TabLink to={`${props.match.url}/tweets_replies`}>Tweets & replies</TabLink>
-        <TabLink to={`${props.match.url}/media`}>Media</TabLink>
-      </Tabs> */}
       <Route path={`${props.match.path}/:tabName`} component={SelectedFeed} />
       <Route exact path={props.match.path} render={FullFeed} />
     </ListContainer>

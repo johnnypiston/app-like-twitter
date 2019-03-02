@@ -204,10 +204,6 @@ const RECOMMENDATIONS = [
 ];
 
 const ProfileMain = function (props) {
-  const FeedWrapper = function ({ match }) {
-    return <Feed {...props} data={TWEETS} feedName={match.params.id} />;
-  };
-
   const TweetsFeed = function ({ match }) {
     return (
       <>

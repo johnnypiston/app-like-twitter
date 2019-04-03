@@ -1,10 +1,17 @@
-## Install project
+# Страница профиля
 
-### `npm install`
+Проект демонстрирует верстку с использованием React. Представляет собой главную страницу профиля пользователя Твиттера.
 
-## Available Scripts
+Использованы следующие возможности:
 
-### `npm start`
+- Роутинг с помощью React Router;
+- React Helmet для заголовков страниц;
+- Передача данных через props;
+- Стилизация с помощью styled-components.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Команды
+
+- Установка проекта **`npm install`**
+- Запуск проекта **`npm start`**
+
+Для просмотра в браузере [http://localhost:3000](http://localhost:3000)
